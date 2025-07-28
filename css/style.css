@@ -124,6 +124,22 @@ header h1
         padding: 10px;
     }
 
+    table {
+        width: 100% !important;
+        overflow-x: auto;
+        display: block;
+    }
+
+    thead {
+        font-size: 14px;
+    }
+
+    tbody,
+    td,
+    th {
+        font-size: 13px;
+        white-space: nowrap; 
+
     h3 {
         font-size: 22px;
         text-align: center;
@@ -139,18 +155,5 @@ header h1
     .btn {
         width: 100% !important;
         margin-bottom: 10px;
-    }
-
-    table {
-        font-size: 14px;
-    }
-
-    th,
-    td {
-        padding: 8px;
-    }
-
-    .thead-dark th {
-        font-size: 14px;
     }
 }
